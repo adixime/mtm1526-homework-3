@@ -16,11 +16,12 @@ $(document).ready(function () {
 				
 		if (color) {
 			$circle.css($property.val(), color);
-		}
-		$('#hshow').click(function (ev) {
+		}		
+	});
+	
+	$('#hshow').click(function (ev) {
 			ev.preventDefault();
     		$circle.toggle("slow");
-  		});
-	});
+  	});
 	
 });
