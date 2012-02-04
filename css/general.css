@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
-.circle {
+#circle {
   margin: 100px 0 0 100px;
   width: 200px;
   height: 200px;
@@ -12,8 +12,12 @@
   left: 350px;
   top: 100px;	
   
-  background-color: #bad600;
+  background-color: #6C0;
   border: 10px solid #000;
   border-radius: 150px;
 
+}
+
+#hshow {
+	float: right;
 }
